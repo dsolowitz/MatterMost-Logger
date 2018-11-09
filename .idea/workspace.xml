@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5867e9f-eac6-425b-bba3-ffbc9abcf4e6" name="Default" comment="First Commit" />
+    <list default="true" id="f5867e9f-eac6-425b-bba3-ffbc9abcf4e6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -30,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/TestPost.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="353">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,8 +52,8 @@
       <file leaf-file-name="LogTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/LogTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+            <state relative-caret-position="210">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,7 +71,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/git" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -301,9 +303,9 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
         <option value="$PROJECT_DIR$/src/log4j2.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/LogTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/java/TestPost.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LogTest.java" />
       </list>
     </option>
   </component>
@@ -336,6 +338,11 @@
             <path>
               <item name="PostTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="MatterMost Logger" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="PostTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MatterMost Logger" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -459,7 +466,7 @@
       <workItem from="1541784242543" duration="399000" />
       <workItem from="1541784661451" duration="170000" />
       <workItem from="1541785265773" duration="13000" />
-      <workItem from="1541785376529" duration="1868000" />
+      <workItem from="1541785376529" duration="3238000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1541534786332</created>
@@ -475,11 +482,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541536721209</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First Commit">
+      <created>1541798366702</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541798366702</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31576000" />
+    <option name="totallyTimeSpent" value="32946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="810" extended-state="0" />
@@ -489,16 +503,16 @@
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.32959327" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50214595" side_tool="true" visible="true" weight="0.32959327" />
       <window_info anchor="right" id="Maven Projects" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.32959327" />
-      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" weight="0.32959327" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4985694" weight="0.32959327" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32959327" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49785408" visible="true" weight="0.32959327" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="0" />
       <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.2746781" />
-      <window_info anchor="bottom" id="Build" order="0" sideWeight="0.49928468" visible="true" weight="0.32959327" />
+      <window_info anchor="bottom" id="Build" order="0" sideWeight="0.49928468" weight="0.32959327" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
@@ -790,7 +804,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/TestPost.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -804,10 +818,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LogTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        <state relative-caret-position="210">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
