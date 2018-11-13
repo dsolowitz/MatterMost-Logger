@@ -11,5 +11,6 @@ public class LogTest {
         logger.warn("This is a warn message");
         logger.error("This is an error message of messages");
         logger.fatal("This is a fatal message");
+
     }
 }

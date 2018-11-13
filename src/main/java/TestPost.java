@@ -23,7 +23,7 @@ public class TestPost {
     }
 
 
-    private void sendPost() throws Exception {
+    public void sendPost() throws Exception {
 
 
         String url = "https://mattermost.oit.duke.edu/hooks/urwdfpf8xjbwuncj7dxe9uu4qw";
