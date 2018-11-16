@@ -12,16 +12,15 @@ import org.json.JSONObject;
 public class MatterMostLogger {
 
     private String url;
-    private String errorType;
+    private String errorType = null;
 
     public MatterMostLogger() throws Exception {
 
          url = "https://mattermost.oit.duke.edu/hooks/urwdfpf8xjbwuncj7dxe9uu4qw";
-         errorType = "ERROR";
+
 
         System.out.println("\nTesting 2 - Send Http POST request");
 
-        this.sendPost();
     }
 
 
@@ -61,7 +60,11 @@ public class MatterMostLogger {
         InputStream input = null;
         JSONObject message = new JSONObject();
 
+        if(errorType == null){
+            errorType = "ERROR";
+        }
 
+        System.out.println(errorType);
         try{
 
 

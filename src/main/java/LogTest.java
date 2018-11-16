@@ -5,7 +5,13 @@ import org.json.JSONObject;
 public class LogTest {
 
     private static Logger logger = LogManager.getLogger();
-    public void performSomeTask(){
+    public static MatterMostLogger http;
+
+    public static void main(String [] args) throws Exception{
+        http = new MatterMostLogger();
+        http.setErrorType("info");
+        http.sendPost();
+        logger.error("This is an error message");
         logger.debug("This is a debug message");
         logger.info("This is an info message");
         logger.warn("This is a warn message");
