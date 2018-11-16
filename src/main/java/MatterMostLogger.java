@@ -9,24 +9,25 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.JSONObject;
 
-public class TestPost {
+public class MatterMostLogger {
 
+    private String url;
+    private String errorType;
 
-    public static void main(String[] args) throws Exception {
+    public MatterMostLogger() throws Exception {
 
-        TestPost http = new TestPost();
+         url = "https://mattermost.oit.duke.edu/hooks/urwdfpf8xjbwuncj7dxe9uu4qw";
+         errorType = "ERROR";
 
         System.out.println("\nTesting 2 - Send Http POST request");
-        LogTest test = new LogTest();
-        test.performSomeTask();
-        http.sendPost();
+
+        this.sendPost();
     }
 
 
     public void sendPost() throws Exception {
 
 
-        String url = "https://mattermost.oit.duke.edu/hooks/urwdfpf8xjbwuncj7dxe9uu4qw";
         JSONObject message = checkLogs();
 
         HttpClient client = new DefaultHttpClient();
@@ -64,12 +65,12 @@ public class TestPost {
         try{
 
 
-            input = (TestPost.class.getClassLoader().getResourceAsStream("log.properties"));
+            input = (MatterMostLogger.class.getClassLoader().getResourceAsStream("log.properties"));
             props.load(input);
 
             Set keys = props.keySet();
             for (Object k :keys){
-                if(k.toString().equals("ERROR")){
+                if(k.toString().equals(errorType.toUpperCase())){
                     message.put("text",k.toString() + " " + props.getProperty(k.toString()).toString());
                 }
             }
@@ -91,5 +92,22 @@ public class TestPost {
 
         return message;
     }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public String getErrorType() {
+        return errorType;
+    }
+
+    public void setErrorType(String errorType) {
+        this.errorType = errorType;
+    }
+
 
 }
