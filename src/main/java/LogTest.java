@@ -9,7 +9,7 @@ public class LogTest {
 
     public static void main(String [] args) throws Exception{
         http = new MatterMostLogger();
-        http.setErrorType("info");
+        http.setErrorType("warn");
         http.sendPost();
         logger.error("This is an error message");
         logger.debug("This is a debug message");

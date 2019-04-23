@@ -16,7 +16,7 @@ public class MatterMostLogger {
 
     public MatterMostLogger() throws Exception {
 
-         url = "https://mattermost.oit.duke.edu/hooks/urwdfpf8xjbwuncj7dxe9uu4qw";
+         url = "https://outlook.office.com/webhook/31f7e67c-196f-4bb0-8498-b5a3359a9eaf@cb72c54e-4a31-4d9e-b14a-1ea36dfac94c/IncomingWebhook/46222c3ee37a4f10b31caedc9520e071/d8f309ec-59c2-47f8-a145-5a8dd29ceafc";
 
 
         System.out.println("\nTesting 2 - Send Http POST request");
